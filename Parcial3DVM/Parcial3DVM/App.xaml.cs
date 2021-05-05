@@ -14,7 +14,7 @@ namespace Parcial3DVM
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+            MainPage = new LogInPage();
         }
 
         protected override void OnStart()

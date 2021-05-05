@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Parcial3DVM.LogInPage">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="fondo1.jpg" Aspect="AspectFill"/>
+            <BoxView Color="#664783" Opacity="0.25"></BoxView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0" Source="xddd.jpeg" WidthRequest="100" HeightRequest="100" Margin="0,50,0,30"/>
+                <StackLayout Grid.Row="1" Padding="10,20">
+                    <Entry Placeholder="Correo Electronico" PlaceholderColor="White" TextColor="White"/>
+                    <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" TextColor="White"/>
+                    <Button Text="Iniciar Secion" BackgroundColor="Coral" BorderWidth="0.1" TextColor="Azure" CornerRadius="17"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="¿Recuperar contraseña?" TextColor="White" FontAttributes="Bold"/>
+                        <Label Text="Resgistrarse" HorizontalOptions="EndAndExpand" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
