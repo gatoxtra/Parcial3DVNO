@@ -19,10 +19,10 @@
                 <StackLayout Grid.Row="1" Padding="10,20">
                     <Entry Placeholder="Correo Electronico" PlaceholderColor="White" TextColor="White"/>
                     <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" TextColor="White"/>
-                    <Button Text="Iniciar Secion" BackgroundColor="Coral" BorderWidth="0.1" TextColor="Azure" CornerRadius="17"/>
+                    <Button Text="Iniciar Sesion" BackgroundColor="Coral" BorderWidth="0.1" TextColor="Azure" CornerRadius="17" Clicked="NavigateBTN_Cliked"/>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="¿Recuperar contraseña?" TextColor="White" FontAttributes="Bold"/>
-                        <Button Text="Resgistrarse" HorizontalOptions="EndAndExpand" FontAttributes="Bold" TextColor="White" Clicked="NavigateBTN_Oncliked"/>
+                        <Button Text="Resgistrarse" BackgroundColor="Coral" CornerRadius="17" HorizontalOptions="EndAndExpand" WidthRequest="150" TextColor="White" Clicked="NavigateBTN_Oncliked"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>

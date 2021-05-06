@@ -22,5 +22,10 @@ namespace Parcial3DVM
             await Navigation.PushAsync(new NavigationPage(new RegistroPage()));
         }
 
+        private async void NavigateBTN_Cliked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NavigationPage(new MainPage()));
+        }
+
     }
 }
