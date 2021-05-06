@@ -17,9 +17,10 @@ namespace Parcial3DVM.Views
             InitializeComponent();
         }
 
-        private async void Btn_Registro(object sender, EventArgs e)
+        private void Btn_Registro(object sender, EventArgs e)
         {
-            await DisplayAlert("Resgitro", "Haz sido registrado correctamente", "Ok" + Navigation.PushAsync(new MainPage()));
+            DisplayAlert("Resgitro", "Haz sido registrado correctamente", "Ok");
+            Navigation.PushAsync(new MainPage());
         }
     }
 }
