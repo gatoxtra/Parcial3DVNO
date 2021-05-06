@@ -22,7 +22,7 @@
                     <Button Text="Iniciar Secion" BackgroundColor="Coral" BorderWidth="0.1" TextColor="Azure" CornerRadius="17"/>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="¿Recuperar contraseña?" TextColor="White" FontAttributes="Bold"/>
-                        <Label Text="Resgistrarse" HorizontalOptions="EndAndExpand" FontAttributes="Bold" TextColor="White"/>
+                        <Button Text="Resgistrarse" HorizontalOptions="EndAndExpand" FontAttributes="Bold" TextColor="White" Clicked="NavigateBTN_Oncliked"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>

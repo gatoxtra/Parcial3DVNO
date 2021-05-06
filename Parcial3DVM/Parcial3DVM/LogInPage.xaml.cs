@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Parcial3DVM.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,10 @@ namespace Parcial3DVM
         {
             InitializeComponent();
         }
+        private async void NavigateBTN_Oncliked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NavigationPage(new RegistroPage()));
+        }
+
     }
 }

@@ -17,3 +17,4 @@ C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM\obj\Debug\netsta
 C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM\obj\Debug\netstandard2.0\Parcial3DVM.dll
 C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM\obj\Debug\netstandard2.0\ref\Parcial3DVM.dll
 C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM\obj\Debug\netstandard2.0\Parcial3DVM.pdb
+C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM\obj\Debug\netstandard2.0\Views\RegistroPage.xaml.g.cs

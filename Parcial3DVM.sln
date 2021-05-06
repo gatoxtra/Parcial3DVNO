@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial3DVM.Android", "Parc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial3DVM.iOS", "Parcial3DVM\Parcial3DVM.iOS\Parcial3DVM.iOS.csproj", "{0F69F997-EB27-42FA-90B9-D3233BED740C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial3DVM", "Parcial3DVM\Parcial3DVM\Parcial3DVM.csproj", "{7B69C21A-4DC8-4D17-9780-D4C39EE9CE93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parcial3DVM", "Parcial3DVM\Parcial3DVM\Parcial3DVM.csproj", "{7B69C21A-4DC8-4D17-9780-D4C39EE9CE93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
