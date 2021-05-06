@@ -19,8 +19,16 @@ namespace Parcial3DVM.Views
 
         private void Btn_Registro(object sender, EventArgs e)
         {
-            DisplayAlert("Resgitro", "Haz sido registrado correctamente", "Ok");
-            Navigation.PushAsync(new MainPage());
+            if (!string.IsNullOrEmpty(EntryNameUser.Text) && !string.IsNullOrEmpty(EntryContraseña.Text) && !string.IsNullOrEmpty(EntryEmail.Text))
+            {
+                DisplayAlert("Cuenta registrada", "su cuenta ha registrado correctamente ", "inicio");
+                Navigation.PushAsync(new mainPage());
+            }
+            else
+            {
+                DisplayAlert("Datos erroneos", "Por favor ingrese correctamente los datos", "Ok");
+            }
+
         }
     }
 }

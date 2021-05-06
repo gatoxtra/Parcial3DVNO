@@ -22,10 +22,18 @@ namespace Parcial3DVM
             await Navigation.PushAsync(new NavigationPage(new RegistroPage()));
         }
 
-        private async void NavigateBTN_Cliked(object sender, EventArgs e)
+        private void NavigateBTN_Cliked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NavigationPage(new MainPage()));
+            if (!string.IsNullOrEmpty(usuario.Text) && !string.IsNullOrEmpty(ContraUsuario.Text))
+            {
+                
+                Navigation.PushAsync(new NavigationPage(new mainPage()));
+            }
+            else
+            {
+                DisplayAlert("Datos erroneos", "Por favor ingrese correctamente los datos", "Ok");
+            }
         }
-
+        
     }
 }

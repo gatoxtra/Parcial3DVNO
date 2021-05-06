@@ -477,3 +477,8 @@ C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM.Android\obj\Debu
 C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM.Android\obj\Debug\90\res\drawable\xddd.jpeg
 C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM.Android\obj\Debug\90\res\drawable\fondo1.jpg
+C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM.Android\obj\Debug\90\res\drawable\imagen2.jpeg
+C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM.Android\obj\Debug\90\res\drawable\pog.jpg
+C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM.Android\obj\Debug\90\res\drawable\messirve.jpg
+C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM.Android\obj\Debug\90\res\drawable\nomessirve.jpg
+C:\Users\Kevin\source\repos\Parcial3DVM\Parcial3DVM\Parcial3DVM.Android\obj\Debug\90\res\drawable\aee.jpg

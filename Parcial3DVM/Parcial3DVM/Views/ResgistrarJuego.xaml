@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Parcial3DVM.Views.ResgistrarJuego">
+    <ContentPage.Content>
+        <Grid>
+            <BoxView Color="#3D5E6E" Opacity="0.25"></BoxView>
+            <ScrollView>
+                <StackLayout>
+                    <Image Source="aee.jpg" WidthRequest="70" HeightRequest="70" Margin="0,0,0,0"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <StackLayout Grid.Row="1">
+                            <Label Text="Ingrese el nombre del juego" FontSize="Body" HorizontalOptions="CenterAndExpand" Margin="0,10,0,0"/>
+                            <Entry Placeholder="Nombre del juego" FontSize="16" x:Name="EntryNameJuego" Margin="0,20,0,20"/>
+                        </StackLayout>
+                        <StackLayout Grid.Row="2">
+                            <Label Text="Ingrese las horas jugadas" FontSize="Body" HorizontalOptions="CenterAndExpand" Margin="0,5,0,0"/>
+                            <Entry Placeholder="Horas jugadas" FontSize="16" x:Name="EntryHoras"  Margin="0,20,0,20"/>
+                        </StackLayout>
+                        <StackLayout Grid.Row="3">
+                            <Label Text="Ingrese la plataforma en que se juego" FontSize="Body" HorizontalOptions="CenterAndExpand" Margin="0,5,0,0"/>
+                            <Entry Placeholder="Plataforma de juego" FontSize="16" x:Name="EntryPlataforma"  Margin="0,20,0,30"/>
+                        </StackLayout>
+                        <StackLayout Grid.Row="4">
+                            <Label Text="Ingrese la nota del juego" FontSize="Body" HorizontalOptions="CenterAndExpand" Margin="0,5,0,0"/>
+                            <Entry Placeholder="Nota del juego (0-100)" FontSize="16" x:Name="EntryNota" Margin="0,20,0,20"/>
+                        </StackLayout>
+                        <StackLayout Grid.Row="5">
+                            <Button Text="Registrar" HorizontalOptions="CenterAndExpand" TextColor="White" WidthRequest="100" BackgroundColor="Coral" Clicked="RegistroJuego_Btn" />
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -17,8 +17,8 @@
                 </Grid.RowDefinitions>
                 <Image Grid.Row="0" Source="xddd.jpeg" WidthRequest="100" HeightRequest="100" Margin="0,50,0,30"/>
                 <StackLayout Grid.Row="1" Padding="10,20">
-                    <Entry Placeholder="Correo Electronico" PlaceholderColor="White" TextColor="White"/>
-                    <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" TextColor="White"/>
+                    <Entry Placeholder="Correo Electronico" PlaceholderColor="White" TextColor="White" x:Name="usuario"/>
+                    <Entry Placeholder="Contraseña" PlaceholderColor="White" IsPassword="True" TextColor="White" x:Name="ContraUsuario"/>
                     <Button Text="Iniciar Sesion" BackgroundColor="Coral" BorderWidth="0.1" TextColor="Azure" CornerRadius="17" Clicked="NavigateBTN_Cliked"/>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="¿Recuperar contraseña?" TextColor="White" FontAttributes="Bold"/>
